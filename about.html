@@ -1,0 +1,79 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sobre mí</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html" class="name-about">Israel López</a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="about.html">SOBRE MI</a></li>
+                    <li><a href="course.html">TRABAJOS</a></li>
+                    <li><a href="contact.html">CONTACTO</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Hola, soy Israel López.</h1>     
+            <p>Soy diseñador gráfico, fotógrafo. Nací en Cd. Juárez, Chihuahua, lugar donde he residido toda mi vida. Mi pasión siempre ha sido
+                el diseño gráfico, especializándome en el ámbito de la identidad corporativa en el sector inmobiliario, en el cual he podido continuar
+                desarrollando mi otra gran pasión que es la toma y edición de fotografía y video.
+                <br>
+                <br>
+                Me gusta mucho enfrentarme a nuevos retos y encontrar la manera de cumplirlos siempre de una manera creativa y obteniendo más de los
+                resultados que me planteo. Sé que con el tiempo y mucho esfuerzo lograré conseguir uno de mis principales objetivos que es tener mi
+                propia agencia de publicidad, por lo que tengo que seguir trabajando en evolucionar tanto personal como profesionalmente y dar lo mejor
+                de mí.
+            </p>
+            <a href="https://www.behance.net/israella04" target="_blank" class="hero-btn red-btn">Mi Portafolio</a>
+        </div>
+        <div class="about-col">
+            <img src="https://scontent.fcjs4-1.fna.fbcdn.net/v/t1.15752-9/184420266_320868689682582_8699781405436788467_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=ae9488&_nc_eui2=AeEzCSAk-fED4qoqc64vl4SlnNGqaVUzNxKc0appVTM3EpdFwf2A1vh2fzhtsvIr2nMqOkPtA5J64oil1mRzq9mL&_nc_ohc=IhKxyjx1cSEAX9FRdgY&_nc_ht=scontent.fcjs4-1.fna&oh=17efd2134ffda337f196c7d24f051e17&oe=60BDDF62">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+         <div class="icons">
+            <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=100011270923309" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/israel.la" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/israel-lopez-alva-b3880818b/" target="_blank"><i class="fa fa-linkedin"></i></a>
+            </div>
+
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
